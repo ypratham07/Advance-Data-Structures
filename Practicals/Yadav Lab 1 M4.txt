@@ -1,0 +1,33 @@
+#Author: Pratham Yadav
+#Creation Date: 23 August 2023
+#Question: Area of Rectangle
+
+#getting the width of rectangle from the user
+print("Enter Width of Rectangle : ", end='')
+width=float(input())                
+
+#getting the height of rectangle from the user
+print("Enter Height of Rectangle : ", end='')
+height=float(input())               
+
+#calculating the area 
+area=round(width* height,2)         
+
+#printing the area of rectangle
+print("Area of Rectangle : ",area) 
+
+
+#Author: Pratham Yadav
+#Creation Date: 23 August 2023
+#Question: Area of Circle
+
+#getting the radius of circle from the user
+print("Enter Radius of Circle : ", end='')
+radius=float(input())                
+
+#calculating the area 
+area=3.14* radius**2    
+
+#printing the area of rectangle  
+print("Area of Circle : ",area)      
+ 
